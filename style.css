@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./assets/mellow.jpg);
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  z-index: -10;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-family: Helvetica;
+  font-weight: lighter;
+  font-style: italic;
+  color: white;
+  padding-top: 35px;
+  font-size: 50px;
+}
+p {
+  display: flex;
+  justify-content: center;
+  font-family: Helvetica;
+  font-weight: lighter;
+  font-style: italic;
+  color: white;
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.app {
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  margin-top: -20px;
+}
+
+.time-select {
+  height: 80%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+  padding-top: 80px;
+  padding-left: 100px;
+ 
+}
+
+.sound-picker {
+  height: 80%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+  padding-top: 70px;
+  padding-right: 100px;
+ 
+}
+.time-select button {
+  
+  color: white;
+  width: 30%;
+  height: 10%;
+  background-color: #62BEC1;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 2px solid #62BEC1;
+  transition: all 0.5s ease;
+}
+
+
+
+.sound-picker button {
+  border: none;
+  height: 120px;
+  width: 120px;
+  padding: 30px;
+  border-radius: 50%;
+  background-color: #5497A7;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.sound-picker button {
+  background: #5497A7;
+}
+.sound-picker button:hover {
+  opacity: 50%;
+}
+.sound-picker button:focus {
+  background: hotpink;
+}
+
+.sound-picker button img {
+  height: 100%;
+}
+
+.time-select button:hover {
+  opacity: 50%;
+}
+.time-select button:focus {
+  background: hotpink;
+}
+
+.player-container {
+  position: relative;
+  height: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+}
+
+.player-container svg {
+  position: absolute;
+  height: 50%;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-90deg);
+  pointer-events: none;
+}
+.player-container svg circle {
+  transition: all 0.2s ease-in-out;
+}
+.time-display {
+  color: white;
+  position: absolute;
+  font-size: 50px;
+  bottom: 10%;
+}
+
+.play {
+  cursor: pointer;
+}
+
+.replay {
+  cursor: pointer;
+}
+
+*:focus {
+  outline: none;
+}
+
+
+
+
+/* Mobile */
+  
+  /* @media screen and (max-width: 600px) {
+    .test { 
+      background-position: center;
+    }
+    .track-outline {
+      width: 20%;
+      margin: 0;
+    }
+    .play {
+      width: 20%;
+      margin: 0;
+    }
+    .sound-picker {
+      display: flex;
+      flex-direction: row;
+     
+      width: 20%;
+      margin: 0;
+    }
+  } */
+
+
+  /* Tablet */
+
+  /* @media screen and (max-width: 768px) {
+    .test { 
+      background-position: center;
+    }
+    .track-outline {
+      width: 50%;
+      margin: 0;
+    }
+    .play {
+      width: 20%;
+      margin: 0;
+    }
+    .sound-picker {
+      width: 20%;
+      margin: 0;
+    }
+  } */
+
+  /* Tablet large */
+  
+  /* @media screen and (min-width: 1024px) and (min-height: 1320px) {
+    .test { 
+      background-position: center;
+    }
+    .track-outline {
+      width: 50%;
+      margin: 0;
+    }
+    .sound-picker {
+      width: 100%;
+      margin: 0;
+    }
+  } */
+
+
+  
+  
+ 
+    
