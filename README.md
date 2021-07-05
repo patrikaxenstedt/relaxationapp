@@ -1,2 +1,2 @@
-# Javascript, relaxation-app made for fun
+ Javascript, relaxation-app made for fun
 
