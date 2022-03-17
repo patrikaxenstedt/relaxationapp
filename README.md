@@ -1,2 +1,2 @@
- Javascript, relaxation-app made for fun, not done
+ Javascript, relaxation-app made for fun via tutorial
 
