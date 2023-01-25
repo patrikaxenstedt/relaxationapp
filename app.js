@@ -11,6 +11,7 @@ const outlineLength = outline.getTotalLength();
 const timeSelect = document.querySelectorAll(".time-select button");
 let fakeDuration = 600;
 
+// Old project done via tutorial
 outline.style.strokeDashoffset = outlineLength;
 outline.style.strokeDasharray = outlineLength;
 timeDisplay.textContent = `${Math.floor(fakeDuration / 60)}:${Math.floor(
